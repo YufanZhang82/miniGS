@@ -32,9 +32,9 @@ input_data/
     └── fused.ply
 ...
 ```
-depth is the depth map obtained from the visual hull.
-monodepth is the monocular depth map obtained by running [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2).
-fused.ply is the dense point cloud.
+Depth is the depth map obtained from the visual hull.
+Monodepth is the monocular depth map obtained by running [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2).
+Fused.ply is the dense point cloud.
 
 ## Image Preprocessing
 
@@ -47,7 +47,7 @@ Use MATLAB to run calib.m in the ./image_preprocessing folder. This will calibra
 ### Raw Image Processing
 
 
-## ✅ TODOs
+## TODOs
 
 - [x] release calibration code and 3DGS input data
 - [ ] release raw image processing code
