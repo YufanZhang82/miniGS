@@ -2,7 +2,7 @@ function maskNum = findMaskSort(bgFolder, threshold, minArea, maskFolder)
 % =========================================================================
 % Find background masks and save
 % Input:
-%   - bgFolder   : folder path containing background images (.bmp)
+%   - bgFolder   : folder path containing background images (.png)
 %   - threshold  : intensity threshold for binarization
 %   - minArea    : minimum region area (pixels) to keep
 %   - maskFolder : folder path to save the generated mask images
@@ -11,7 +11,7 @@ function maskNum = findMaskSort(bgFolder, threshold, minArea, maskFolder)
 %   - maskNum    : number of masks found and saved
 % =========================================================================
 
-    bgFiles = dir(fullfile(bgFolder, '*.bmp'));
+    bgFiles = dir(fullfile(bgFolder, '*.png'));
     bgImagePath = fullfile(bgFolder, bgFiles(1).name);
     bg = imread(bgImagePath);
 
