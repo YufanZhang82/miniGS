@@ -36,6 +36,10 @@ Depth is the depth map obtained from the visual hull.
 Monodepth is the monocular depth map obtained by running [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2).
 Fused.ply is the dense point cloud.
 
+## Lens Prototype
+
+The 3D-printed lens prototype is located in the ./lens_prototype folder. You can cut out pairs of flat mirrors and arrange them circularly on the sides of two nested octagonal pyramids.
+
 ## Image Preprocessing
 
 ### Calibration
@@ -50,9 +54,10 @@ Use MATLAB to run calib.m in the ./image_preprocessing folder. This will calibra
 ## TODOs
 
 - [x] release calibration code and 3DGS input data
+- [x] release 3D printed prototype model
 - [ ] release raw image processing code
-- [ ] release 3D printed prototype model
-
+- [ ] release 3DGS code
+ 
 ## Citation
 If you find our work useful for your project please cite:
 ```
